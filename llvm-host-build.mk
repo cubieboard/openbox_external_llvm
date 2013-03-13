@@ -1,3 +1,6 @@
+
+LOCAL_LDLIBS := -lpthread -ldl
+
 LOCAL_CFLAGS :=	\
 	-D_GNU_SOURCE	\
 	-D__STDC_LIMIT_MACROS	\
